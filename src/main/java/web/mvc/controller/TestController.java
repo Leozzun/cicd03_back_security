@@ -16,6 +16,6 @@ public class TestController {
         return ResponseEntity
                 .ok()
                 .contentType(MediaType.valueOf("text/plain;charset=UTF-8"))  //
-                .body("CI/CD GitHub Action Slack - spring Security OK 시작! - slack 알림 보내기");
+                .body("CI/CD GitHub Action Slack - spring Security OK 시작! - back~ domain");
     }
 }
